@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300&display=swap');
+
+
+
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Logo Styling */
+.navbar-brand img {
+    height: 50px;
+    width: 150px;
+}
+.nav-bar{
+    font-weight: 400;
+    font-size: large;
+}
+
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; 
+}
+
+
+.nav-item.dropdown:hover .nav-link {
+    color: #007bff; 
+}
+
+.nav-item.dropdown:hover .nav-link::after {
+    transform: rotate(180deg); 
+}
+
+
+.nav-item.dropdown .dropdown-menu {
+    display: none; 
+}
+
+nav a{
+  padding-left: 20px;
+}
+#home-com:hover{
+    text-decoration: underline;
+}
+
+
+
+/* hero section */
+.name{
+    height: 500px;
+    width: 50%;
+    border: 2px solid black;
+    
+}
+
+.name h2 span {
+    margin-left: 20px;
+    font-weight: 200;
+    font-size:medium
+}
+
+.rating{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-left: 10px;
+}
+#stars{
+    
+    margin-bottom: 10px;
+}
+
+.rating button{
+    height: 25px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.review{
+    text-decoration: underline;
+}
+.adress-time img{
+    height: 30px;
+}
+.address{
+    display: flex;
+    gap: 10px;
+    font-size: medium;
+}
+.timings{
+    display: flex;
+    gap: 10px;
+}
+
+.timings p{
+    font-weight: 200;
+}
+.direction-btn button{
+    height: 40px;
+    width: 150px;
+    border: 2px solid rgb(255, 69, 0);
+    background-color: white;
+    border-radius: 5px;
+
+}
+.direction-btn button a{
+    text-decoration: none;
+    color:rgb(255, 69, 0) ;
+ 
+}
+.direction-btn button:hover{
+    background-color: rgb(255, 69, 0);
+}
+.direction-btn button a:hover{
+    color: white;
+}
+
+.hero-section{
+    margin-top:20px;
+}
+
+
+#store-gallary{
+    z-index: -10;
+}
+
+/* customer-rating */
+
+#custom-rate{
+margin-top: 30px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+
+.customer-rating h5 {
+    font-weight: 100;
+    font-size: medium;
+}
+
+.card-body h5{
+    font-weight: 300;
+
+}
+.card-title img{
+    height: 50px;
+}
+.card-text{
+    font-size: small;
+    font-weight: 300;
+}
+
+
+/* deals-in */
+
+.deals-in{
+    margin-top: 30px;
+}
+#gallary-deals {
+   height: 180px;
+    border: 2px solid white;
+    cursor: pointer;
+    gap: 10px;
+    border-radius: 10px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+#gallary-deals ul{
+    display: flex;
+    overflow-x: auto;
+ align-items: center;
+ margin-top: 20px;
+}
+#gallary-deals ul::-webkit-scrollbar{
+    width: 0;
+}
+#gallary-deals ul li{
+    padding-left: 30px;
+}
+#gallary-deals ul li a img{
+    height: 100px;
+    width: 150px;
+    border: 2px solid whitesmoke;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* service-offer */
+.service-offer{
+    margin-top: 30px;
+}
+
+#service {
+    height: 230px;
+     border: 2px solid white;
+     cursor: pointer;
+     gap: 10px;
+     border-radius: 10px;
+     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+ }
+ 
+ #service ul{
+     display: flex;
+     overflow-x: auto;
+  align-items: center;
+  margin-top: 20px;
+ }
+ #service ul::-webkit-scrollbar{
+     width: 0;
+ }
+ #service ul li{
+     padding-left: 30px;
+ }
+ #services ul li a img{
+     border: 2px solid whitesmoke;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ }
+ .service-btn{
+   width: 150px;
+   background-color: orangered;
+   color: white;
+   border-radius: 5px;
+   border: 1px solid orangered;
+   height: 30px;
+   margin-top: 20px;
+   margin-left: 10px;
+ }
+ .service-btn button{
+    background-color: orangered;
+    color: white;
+    border: 1px solid orangered;
+    padding-left: 10px;
+    width: 100%;
+ }
+
+ .service-btn button:hover{
+    background-color: rgb(255, 69, 0);
+    color: black;
+ }
+
+ /* Dealer */
+
+
+ .This-dealer{
+
+    margin-top: 30px;
+ }
+
+ .this-dealer{
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+ }
+
+
+ #Dealer{
+    display: flex;;
+    /* border: 2px solid black; */
+    gap: 20px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+ }
+
+ .first-options{
+    float: right;
+ }
+
+ .advance-options{
+    display: flex;
+ }
+
+
+ /* imge */
+ .gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    margin-top: 30px;
+}
+
+.gallery-item {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+   margin-top: 50px;
+}
+
+.hidden {
+    display: none;
+}
+
+.view-more-btn {
+    padding: 10px 20px;
+    margin: 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.view-more-btn:hover {
+    background-color: #0056b3;
+}
+
+#payment-nav .list{
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+}
+.paymode-div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 200px;
+    border: 2px solid white;
+    margin-top: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.questions-section{
+    height: 200px;
+    margin-top: 30px;
+    padding-left: 30px;
+    padding-top: 20px;
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.questions-section input{
+    width: 300px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+
+.footer{
+    margin-top: 30px;
+}
+#footer-nav{
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.footer-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+}
+.social-icons{
+    display: flex;
+    width: 100px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.social-icons img{
+    height: 50px;
+    width: 50px;
+}
+.footer-bar li{
+    list-style: none;
+}
+.footer-bar a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer-bar a:hover{
+    text-decoration: underline;
+}
